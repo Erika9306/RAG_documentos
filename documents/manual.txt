@@ -1,0 +1,91 @@
+UNIVERSIDAD POLITÉCNICA DE SIERRA NEVADA (UPSN)
+ESCUELA TÉCNICA SUPERIOR DE INGENIERÍA DE TELECOMUNICACIÓN Y ROBÓTICA
+DEPARTAMENTO DE SISTEMAS AUTÓNOMOS Y AUTOMÁTICA
+
+DOCUMENTO OFICIAL: MEMORIA TÉCNICA, NORMATIVA DE EVALUACIÓN Y RÚBRICA DE CALIFICACIÓN
+TRABAJO FIN DE GRADO (TFG) - CONVOCATORIA ORDINARIA 2026
+CÓDIGO DE EXPEDIENTE: TFG-2026-ROB-0894
+
+TÍTULO DEL PROYECTO:
+"Arquitectura de Navegación Cooperativa y Telemetría Acústica para Enjambres de Vehículos Submarinos No Tripulados en Embalses de Alta Montaña (Proyecto NEREUS-IV)"
+
+AUTOR: Alejandro Valdivia Mendoza
+TUTOR PRINCIPAL: Dra. Elena Rostova Vance
+COTUTOR EXTERNO: Ing. Marcos Salgado (Confederación Hidrográfica del Sur)
+FECHA DE DEPÓSITO: 14 de mayo de 2026
+
+================================================================================
+PÁGINA 1: MARCO NORMATIVO Y REQUISITOS ADMINISTRATIVOS DEL TFG
+================================================================================
+
+ARTÍCULO 1. OBJETO Y ÁMBITO DE APLICACIÓN
+La presente normativa regula el desarrollo, presentación, defensa y evaluación del Trabajo Fin de Grado (TFG) correspondiente al Grado en Ingeniería Robótica y Sistemas Inteligentes de la Universidad Politécnica de Sierra Nevada (UPSN), específicamente adaptado a proyectos con componente experimental de campo y prototipado hardware.
+
+ARTÍCULO 2. REQUISITOS PREVIOS DE MATRÍCULA Y DEPÓSITO
+2.1. Para proceder al depósito oficial de la memoria en la plataforma institucional "GEST-TFG", el estudiante deberá haber superado un mínimo de 210 créditos ECTS de los 240 totales que componen el plan de estudios, incluyendo obligatoriamente la totalidad de las asignaturas de Formación Básica y las materias obligatorias de los tres primeros cursos.
+2.2. El depósito deberá realizarse con una antelación mínima de 12 días hábiles respecto a la fecha fijada para el inicio del periodo de defensas públicas.
+2.3. La documentación entregada en el depósito constará de tres archivos independientes en formato PDF/A-1b:
+   a) Memoria técnica completa (extensión mínima de 60 páginas y máxima de 110 páginas, excluyendo anexos de planos y código fuente).
+   b) Resumen ejecutivo en lengua inglesa (Abstract extendido de entre 1.200 y 1.500 palabras).
+   c) Informe de originalidad emitido por la herramienta institucional AntiPlag-UPSN, cuyo índice de similitud global no podrá superar en ningún caso el 14%, ni presentar bloques continuos coincidentes superiores a 35 palabras sin la debida cita bibliográfica en formato IEEE.
+
+ARTÍCULO 3. COMPOSICIÓN Y DESIGNACIÓN DE LOS TRIBUNALES EVALUADORES
+3.1. Cada tribunal evaluador estará compuesto por tres miembros titulares y dos suplentes, todos ellos pertenecientes al personal docente e investigador (PDI) con vinculación permanente a la UPSN o doctores con al menos dos sexenios de investigación reconocidos.
+3.2. El tutor o cotutor del TFG no podrá formar parte en ningún caso del tribunal que evalúe dicho trabajo, aunque podrá asistir a la sesión de defensa con voz pero sin voto en caso de ser requerido por la presidencia del tribunal para aclarar aspectos técnicos sobre la disponibilidad de recursos materiales durante el desarrollo del proyecto.
+3.3. Para el expediente TFG-2026-ROB-0894 (Proyecto NEREUS-IV), el tribunal designado por la Comisión Académica del Título (CAT) queda constituido por:
+   - Presidente: Dr. Javier Ortega Castellanos (Catedrático de Ingeniería de Sistemas).
+   - Secretario: Dra. Lucía Méndez-Vigo (Profesora Titular de Acústica Submarina).
+   - Vocal: Dr. Alberto Ferrer Solís (Profesor Contratado Doctor de Inteligencia Artificial).
+   - Suplente 1: Dra. Carmen Navarro Ruiz.
+   - Suplente 2: Dr. Ignacio Peña Gómez.
+
+================================================================================
+PÁGINA 2: PROCEDIMIENTO DE DEFENSA PÚBLICA Y PENALIZACIONES
+================================================================================
+
+ARTÍCULO 4. ESTRUCTURA Y TIEMPOS DE LA SESIÓN DE DEFENSA
+4.1. La defensa del TFG será pública y presencial en el Aula Magna del Edificio Turing, salvo autorización expresa del Vicerrectorado de Ordenación Académica por causas de fuerza mayor debidamente acreditadas.
+4.2. El acto de defensa se dividirá estrictamente en dos fases cronometradas por el Secretario del tribunal:
+   - Fase I (Exposición del estudiante): El alumno dispondrá de un tiempo máximo de 20 minutos para exponer los objetivos, metodología, arquitectura del sistema, resultados experimentales y conclusiones. Si el estudiante excede los 21 minutos, el Presidente del tribunal interrumpirá la exposición y se aplicará una penalización automática de 0,5 puntos sobre la calificación final. Si la exposición dura menos de 14 minutos, se aplicará una penalización de 0,75 puntos por falta de rigor expositivo.
+   - Fase II (Turno de debate y preguntas): Los miembros del tribunal formularán cuantas preguntas, objeciones o solicitudes de aclaración estimen oportunas durante un periodo máximo de 15 minutos. El estudiante responderá de forma individualizada tras la intervención de cada miembro del tribunal, y no de forma agrupada al final.
+
+ARTÍCULO 5. DEMOSTRACIÓN PRÁCTICA EN VIVO Y PROTOCOLO DE FALLO
+5.1. En los TFG de modalidad "Desarrollo Hardware y Prototipado", es obligatorio realizar una demostración funcional del sistema durante la Fase I de la exposición, con una duración no superior a 4 minutos.
+5.2. Dado que el Proyecto NEREUS-IV opera en entornos acuáticos, la demostración en el Aula Magna se realizará mediante un tanque de pruebas portátil de metacrilato de 120x60x60 centímetros (432 litros de capacidad) o, alternativamente, mediante retransmisión telemática en tiempo real desde la piscina de ensayos hidrodinámicos del Laboratorio B-04.
+5.3. Protocolo de contingencia: Si durante la demostración en vivo ocurre un fallo técnico crítico no atribuible a la infraestructura del aula, el estudiante dispondrá de un único reinicio de 90 segundos. Si tras el reinicio el sistema no responde, se evaluará el vídeo de respaldo grabado previamente (certificado mediante hash SHA-256 en el Anexo IV de la memoria), pero la nota del apartado de "Implementación Técnica" sufrirá una reducción máxima del 25%.
+
+================================================================================
+PÁGINA 3: RÚBRICA OFICIAL DE EVALUACIÓN Y PONDERACIONES
+================================================================================
+
+ARTÍCULO 6. CRITERIOS DE CALIFICACIÓN Y DESGLOSE PORCENTUAL
+La calificación final del TFG (en escala numérica de 0,00 a 10,00 con dos decimales) se calculará mediante la suma ponderada de cuatro bloques evaluables independientes. Para superar la asignatura es requisito indispensable obtener una calificación igual o superior a 5,00 en cada uno de los cuatro bloques por separado. Si un bloque tiene nota inferior a 5,00, la calificación global en actas será de "Suspenso (4,50)" independientemente de que la media aritmética supere el aprobado.
+
+BLOQUE A: CALIDAD CIENTÍFICA Y RIGOR TÉCNICO DE LA MEMORIA (Ponderación: 35%)
+- A.1. Estado del arte y revisión bibliográfica (10%): Uso de al menos 35 referencias indexadas en JCR o Scopus publicadas en los últimos 6 años.
+- A.2. Formulación matemática y modelado físico (10%): Correcta deducción de las ecuaciones cinemáticas y dinámicas del vehículo subacuático (6 grados de libertad).
+- A.3. Claridad redaccional, estructura y formato (10%): Ausencia de faltas ortográficas (cada falta grave resta 0,1 puntos), calidad vectorial de los diagramas y cumplimiento estricto de la plantilla LaTeX oficial.
+- A.4. Análisis económico, impacto ambiental y viabilidad (5%): Desglose detallado del presupuesto de ejecución material (PEM) y evaluación de huella de carbono.
+
+BLOQUE B: INNOVACIÓN, DISEÑO E IMPLEMENTACIÓN DEL PROTOTIPO (Ponderación: 35%)
+- B.1. Arquitectura hardware y selección de componentes (12%): Justificación técnica de sensores, actuadores, microcontroladores y gestión energética.
+- B.2. Desarrollo software y algoritmos de control (15%): Eficiencia computacional, arquitectura ROS 2 (Humble Hawksbill), manejo de concurrencia y tolerancia a fallos.
+- B.3. Pruebas experimentales y validación en entorno real (8%): Rigor en la toma de muestras, análisis estadístico de errores y repetibilidad de los ensayos.
+
+BLOQUE C: EXPOSICIÓN ORAL Y DEMOSTRACIÓN PRÁCTICA (Ponderación: 15%)
+- C.1. Capacidad de síntesis y dominio escénico (8%): Fluidez verbal, control del tiempo y calidad visual de las diapositivas (máximo 22 diapositivas permitidas).
+- C.2. Ejecución de la prueba funcional (7%): Estabilidad y precisión del prototipo durante la demostración ante el tribunal.
+
+BLOQUE D: DEFENSA Y RESPUESTA AL TRIBUNAL (Ponderación: 15%)
+- D.1. Precisión técnica en las respuestas (10%): Capacidad para justificar decisiones de diseño frente a alternativas propuestas por el tribunal.
+- D.2. Autocrítica y líneas futuras (5%): Identificación honesta de las limitaciones actuales del sistema NEREUS-IV.
+
+ARTÍCULO 7. CONCESIÓN DE MATRÍCULA DE HONOR
+7.1. El tribunal podrá proponer la mención de "Matrícula de Honor" (MH) únicamente a aquellos trabajos que obtengan una calificación final ponderada igual o superior a 9,35 puntos y que hayan recibido previamente una valoración de "Excelente (A+)" en el informe confidencial del tutor.
+7.2. El número máximo de Matrículas de Honor concedidas por convocatoria no podrá exceder el 5% del total de estudiantes matriculados en la asignatura en dicho curso académico. En caso de empate entre candidatos propuestos por distintos tribunales, la Comisión Académica resolverá atendiendo a la nota media del expediente académico del estudiante hasta la fecha de depósito.
+
+================================================================================
+PÁGINA 4: RESUMEN TÉCNICO DEL PROYECTO NEREUS-IV (ESPECIFICACIONES HARDWARE)
+================================================================================
+
+1. INTRODUCCIÓN Y OBJETIVOS DEL SISTEMA NEREUS-IV

@@ -1,0 +1,116 @@
+================================================================================
+MANUAL OFICIAL DE REGLAS Y REFERENCIA DE JUEGO
+TÍTULO: CRONOS-9: EL ÚLTIMO RELOJERO (EDICIÓN ESTÁNDAR 2026)
+DISEÑADORES: Mateo Valcárcel y Sofía Lindqvist
+EDITORIAL: Ediciones Engranaje Dorado S.L.
+JUGADORES: 2 a 4 | EDAD: +14 años | DURACIÓN: 60 - 90 minutos
+================================================================================
+
+1. AMBIENTACIÓN Y OBJETIVO DEL JUEGO
+En el año 2184, la ciudad subterránea de Aethelgard sobrevive gracias a la Gran Esfera de Cuarzo, un reloj mecánico colosal que regula la presión atmosférica, el bombeo de oxígeno y los ciclos de luz artificial. Tras un sabotaje perpetrado por la facción de los "Saboteadores del Silencio", la Gran Esfera ha comenzado a atrasarse.
+
+Cada jugador asume el papel de un Maestro Relojero del Gremio de Aethelgard. A lo largo de exactamente 6 Rondas (llamadas "Ciclos Horarios"), los jugadores deberán recolectar minerales raros, forjar engranajes de precisión, contratar aprendices y reparar los cuatro cuadrantes de la Gran Esfera antes de que el marcador de Colapso Atmosférico llegue a cero.
+
+OBJETIVO: Al finalizar el 6º Ciclo Horario (o si se activa el final anticipado por reparación total), gana el jugador que haya acumulado más Puntos de Prestigio (PP). En caso de empate, gana el jugador con más Piezas de Cuarzo Puro en su reserva personal. Si persiste el empate, gana quien tenga menos Fichas de Fatiga.
+
+================================================================================
+2. COMPONENTES DE LA CAJA
+================================================================================
+- 1 Tablero Central modular dividido en 4 Cuadrantes (Norte, Sur, Este, Oeste) y el Núcleo del Péndulo.
+- 4 Tableros Individuales de Taller (uno por jugador, con ranuras para 3 Aprendices y 4 Yunques).
+- 48 Cubos de Recurso estándar:
+  * 18 cubos de Latón (color amarillo)
+  * 16 cubos de Acero Templado (color gris)
+  * 14 cubos de Cuarzo Puro (color azul translúcido)
+- 20 Fichas de Éter Líquido (comodines energéticos de color violeta).
+- 60 Cartas de Plano de Engranaje (divididas en Nivel I: 25 cartas, Nivel II: 20 cartas, Nivel III: 15 cartas).
+- 24 Cartas de Aprendiz del Gremio.
+- 18 Cartas de Anomalía Temporal (eventos negativos al final de cada ronda).
+- 32 Fichas de Fatiga (marcas de estrés mecánico, valor -1 PP al final de la partida).
+- 4 Peones de Maestro Relojero (uno por color de jugador: Cobre, Plata, Bronce y Níquel).
+- 1 Marcador de Ciclo Horario (rondas 1 a 6) y 1 Marcador de Presión Atmosférica (inicia en el valor 15).
+
+================================================================================
+3. PREPARACIÓN DE LA PARTIDA (SETUP)
+================================================================================
+1. Coloca el Tablero Central en el centro de la mesa y sitúa el Marcador de Presión Atmosférica en la casilla número 15. Si juegan 2 jugadores, colócalo en la casilla 12.
+2. Cada jugador recibe un Tablero Individual de Taller, su Peón de Maestro Relojero y los siguientes recursos iniciales:
+   - 3 cubos de Latón
+   - 2 cubos de Acero Templado
+   - 1 cubo de Cuarzo Puro
+   - 1 Ficha de Éter Líquido
+3. Baraja por separado los tres mazos de Cartas de Plano de Engranaje (Niveles I, II y III) y revela 3 cartas de cada nivel formando el Mercado de Planos.
+4. Baraja el mazo de Aprendices del Gremio y coloca 4 cartas boca arriba en la Taberna del Vapor.
+5. Determinación del jugador inicial: El jugador que haya reparado o cambiado la pila de un reloj más recientemente recibe la Llave Maestra de Cuerda (marcador de jugador inicial) y comienza la partida. El resto de jugadores reciben compensación según el orden de turno:
+   - 2º jugador: +1 cubo de Latón.
+   - 3º jugador: +1 cubo de Acero Templado.
+   - 4º jugador: +1 cubo de Acero Templado y +1 Ficha de Éter Líquido.
+
+================================================================================
+4. ESTRUCTURA DE UN CICLO HORARIO (RONDA)
+================================================================================
+Cada uno de los 6 Ciclos Horarios se divide en 4 fases que se juegan en orden estricto:
+- FASE I: Amanecer Artificial (Ingresos y Mantenimiento)
+- FASE II: Asignación de Gremio (Colocación de Trabajadores y Acciones)
+- FASE III: Sincronización de la Esfera (Resolución de Reparaciones)
+- FASE IV: Anomalía Temporal (Desgaste y Fin de Ronda)
+
+--- DETALLE DE LA FASE I: AMANECER ARTIFICIAL ---
+1. Todos los jugadores producen recursos según los iconos de producción visibles en sus Aprendices contratados y en los Engranajes de Nivel I ya instalados en su taller.
+2. Si un jugador tiene 4 o más Fichas de Fatiga en su taller, debe descartar inmediatamente 1 cubo de recurso a su elección por cada bloque de 4 fichas (es decir, si tiene 8 fichas, descarta 2 cubos).
+
+--- DETALLE DE LA FASE II: ASIGNACIÓN DE GREMIO ---
+Comenzando por el portador de la Llave Maestra de Cuerda y continuando en sentido horario, cada jugador realiza UN turno en el que puede ejecutar una de las siguientes 5 acciones principales:
+
+ACCIÓN A: EXTRAER EN LAS MINAS DE VAPOR
+Mueve tu Peón de Maestro Relojero a una de las tres galerías mineras del tablero (solo puede haber 1 peón por galería):
+- Galería de Superficie: Obtienes 3 cubos de Latón.
+- Galería Intermedia: Obtienes 2 cubos de Acero Templado y 1 Ficha de Fatiga.
+- Abismo de Cuarzo: Obtienes 1 cubo de Cuarzo Puro, 1 Ficha de Éter Líquido y 2 Fichas de Fatiga.
+
+ACCIÓN B: ADQUIRIR UN PLANO EN EL MERCADO
+Paga el coste en Latón indicado en la esquina superior izquierda de una carta del Mercado de Planos (1 Latón para Nivel I, 2 Latones para Nivel II, 3 Latones para Nivel III) y colócala en una ranura libre de Yunque de tu taller. Repones el hueco del mercado inmediatamente. Nota: Un jugador nunca puede tener más de 4 planos sin construir en sus Yunques simultáneamente.
+
+ACCIÓN C: FORJAR UN ENGRANAJE
+Descarta de tu reserva personal los recursos exactos indicados en el plano de uno de tus Yunques. Voltea la carta de plano para indicar que el Engranaje está forjado y listo para instalarse en la Gran Esfera.
+- Regla de Alquimia del Éter: Puedes gastar 1 Ficha de Éter Líquido para sustituir hasta 2 cubos de Latón o 1 cubo de Acero Templado. El Éter Líquido NUNCA puede sustituir al Cuarzo Puro.
+
+ACCIÓN D: CONTRATAR O DESCANSAR EN LA TABERNA DEL VAPOR
+Elige una de estas dos opciones:
+- Contratar: Paga 2 cubos de Latón y 1 cubo de Acero Templado para tomar una carta de Aprendiz disponible y colocarla en tu taller (máximo 3 Aprendices por jugador).
+- Descansar: Retira hasta 3 Fichas de Fatiga de tu taller y devuélvelas a la reserva general. Si retiras 3 fichas de golpe, además obtienes 1 Ficha de Éter Líquido.
+
+ACCIÓN E: SABOTAJE CONTROLADO (SOLO DISPONIBLE A PARTIR DEL CICLO 3)
+Pagando 2 Fichas de Éter Líquido, puedes bloquear un Cuadrante de la Gran Esfera colocando tu ficha de bloqueo. Ningún jugador podrá instalar engranajes en ese cuadrante durante la Fase III de este ciclo, pero tú recibes automáticamente 2 Fichas de Fatiga por usar técnicas prohibidas.
+
+Nota sobre el fin de la Fase II: La Fase II continúa por turnos hasta que todos los jugadores hayan pasado consecutivamente. El primer jugador en pasar recibe la Llave Maestra de Cuerda para el siguiente Ciclo Horario.
+
+--- DETALLE DE LA FASE III: SINCRONIZACIÓN DE LA ESFERA ---
+En orden de turno, los jugadores pueden instalar los Engranajes que hayan forjado en sus talleres en los cuatro Cuadrantes de la Gran Esfera (Norte, Sur, Este, Oeste).
+- Cada cuadrante tiene 4 huecos de instalación.
+- Al instalar un Engranaje, el jugador gana inmediatamente los Puntos de Prestigio (PP) impresos en la carta (normalmente 2 PP para Nivel I, 5 PP para Nivel II y 9 PP para Nivel III) y hace avanzar el Marcador de Presión Atmosférica en +1 posición (o +2 si es un Engranaje de Nivel III).
+- Bonificación de Cuadrante Completo: El jugador que coloque el 4º y último engranaje de un mismo cuadrante recibe una bonificación inmediata de +4 PP adicionales y elimina todas sus Fichas de Fatiga.
+
+--- DETALLE DE LA FASE IV: ANOMALÍA TEMPORAL ---
+1. Revela la carta superior del mazo de Anomalías Temporales y aplica su efecto global a todos los jugadores.
+2. El Marcador de Presión Atmosférica retrocede automáticamente tantas casillas como indique el número de Ciclo Horario actual (en el Ciclo 1 retrocede 1 casilla; en el Ciclo 4 retrocede 4 casillas, etc.).
+3. Avanza el Marcador de Ciclo Horario en 1 espacio.
+
+================================================================================
+5. CONDICIONES DE FINAL DE PARTIDA Y PUNTUACIÓN FINAL
+================================================================================
+La partida termina inmediatamente si ocurre cualquiera de estas tres situaciones:
+1. Se completa la Fase IV del 6º Ciclo Horario (Final Estándar).
+2. Se completan los 16 huecos de los cuatro Cuadrantes de la Gran Esfera (Final por Victoria Tecnológica).
+3. El Marcador de Presión Atmosférica llega a 0 (Final por Colapso de Aethelgard).
+
+ATENCIÓN - PENALIZACIÓN POR COLAPSO: Si la partida termina porque la Presión Atmosférica llegó a 0, el jugador que tenga MENOS engranajes instalados en la Gran Esfera queda automáticamente eliminado y no puede ganar la partida, independientemente de sus puntos.
+
+CÁLCULO DE PUNTUACIÓN FINAL (SOLO SI NO HUBO COLAPSO O PARA LOS NO ELIMINADOS):
+- Puntos de Prestigio acumulados durante la partida en el marcador.
+- +3 PP por cada Aprendiz contratado en tu taller que no tenga Fichas de Fatiga encima.
+- +2 PP por cada Engranaje de Nivel III que hayas instalado en el Cuadrante Norte (el Cuadrante del Péndulo).
+- +1 PP por cada conjunto de 3 recursos sobrantes (cualquier combinación de Latón, Acero, Cuarzo o Éter).
+- -1 PP por cada Ficha de Fatiga que permanezca en tu taller al final de la partida.
+- -3 PP por cada Plano de Engranaje que hayas dejado en tus Yunques sin forjar.
+
