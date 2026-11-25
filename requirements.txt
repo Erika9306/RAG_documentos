@@ -4,3 +4,5 @@ python-dotenv
 sentence-transformers
 openai
 pypdf
+ragas
+langchain-openai
